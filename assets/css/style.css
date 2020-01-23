@@ -3,5 +3,30 @@ body{
     color: white;
     text-align: center;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
-    font-size: 3em;
+    font-size: 150%;
+}
+
+
+@media (max-width: 500px){
+
+    h2::before{
+
+        content:"The screen is a smartphone?";
+
+    }
+
+}
+
+@media (min-width: 500px){
+
+    h2::before{
+
+        content:"The screen is a Computer";
+
+    }
+
+    h2{
+        color: darkgoldenrod;
+    }
+
 }
